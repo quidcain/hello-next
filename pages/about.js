@@ -1,9 +1,11 @@
-import Link from 'next/link';
+// pages/about.js
+
+import Layout from '../components/MyLayout.js';
 
 export default function About() {
   return (
-    <div>
+    <Layout>
       <p>This is the about page</p>
-    </div>
+    </Layout>
   );
 }
